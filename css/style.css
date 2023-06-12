@@ -286,11 +286,13 @@ a:hover{
 .booknow .btn-container{
     text-align: center;
     padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .booknow button{
     background-color: #8F001A;
     border-color: #8F001A;
+    
 }
 
 .booknow button:hover{
