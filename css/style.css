@@ -11,6 +11,10 @@ h1{
     font-weight: 900;
 }
 
+a:hover{
+    color: grey;
+}
+
 
 /* Navbar */
 .navbar {
@@ -31,7 +35,7 @@ h1{
     margin-right: 5em !important;
 }
 .nav-link:hover {
-    color: #000;
+    color: grey;
 }
 .navbar-collapse {
     justify-content: center;
@@ -73,14 +77,14 @@ h1{
 .description button {
     border-radius: 20em;
     background-color: white;
-    border:1px solid rgb(200, 28, 28);
-    color:#000;
+    
+    color:gray;
     
 }
 .description button:hover {
-	border:1px solid #fff;
-    background:#fff;
-    color:#000;
+
+    background:gray;
+    color:white;
 }
 
 /* Our team */
@@ -187,6 +191,12 @@ h1{
     
 }
 
+.pricing button:hover{
+    color: white;
+    background-color: grey;
+    border-color: grey;
+}
+
 .pricing-btn{
     padding: 3%;
 }
@@ -276,4 +286,15 @@ h1{
 .booknow .btn-container{
     text-align: center;
     padding-top: 3%;
+}
+
+.booknow button{
+    background-color: #8F001A;
+    border-color: #8F001A;
+}
+
+.booknow button:hover{
+    background-color: grey;
+    color: white;
+    border-color: grey;
 }
