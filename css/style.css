@@ -3,11 +3,19 @@ body {
     margin: 0;
     background: #ffffff;
     font-family: "Montserrat";
+    margin: 0;
+    height:100%;
 }
+
+h1{
+    font-weight: 900;
+}
+
 
 /* Navbar */
 .navbar {
     background:#8F001A;
+    border-radius: 0%;
 }
 .nav-link,
 .navbar-brand {
@@ -75,7 +83,7 @@ body {
     color:#000;
 }
 
-
+/* Our team */
 .ourteam h1{
     text-align: center;
     padding-top: 3%;
@@ -83,7 +91,7 @@ body {
     font-weight: bold;
 }
 
-.card{
+.ourteam .card{
     display:inline-block;
     margin-right: 4%;
     margin-left: 4%;
@@ -92,16 +100,16 @@ body {
     border-width: 0;
 }
 
-.card h5{
+.ourteam .card h5{
     color: #8F001A;
     font-weight: bold;
 }
 
-.card h6{
+.ourteam .card h6{
     font-weight: bold;
 }
 
-.card a{
+.ourteam .card a{
     text-align: center;
     background-color: #8F001A;
     border-width: 0;
@@ -120,6 +128,73 @@ body {
     object-fit: cover;
 }
 
+/* pricing */
+
+.pricing h1{
+    text-align: center;
+    
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+.pricing{
+    padding-top: 2%;
+    padding-bottom:10%;
+}
+
+.pricing h5{
+    text-align: center;
+    font-weight: bold;
+}
+
+.pricing img{
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-top: 7%;
+}
+
+.pricing .card{
+    margin: auto;
+    display: block;
+    width: 26rem;
+}
+
+.pricing .list-group-item{
+    line-height: 20px;
+}
+
+.service{
+    padding-top: 5%;
+}
+.service-subtitle{
+    text-align: center;
+    color: gray;
+}
+
+.l{
+    font-weight: bold;
+}
+
+.pricing button{
+    border-radius: 0%;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    background-color: transparent;
+    
+    
+}
+
+.pricing-btn{
+    padding: 3%;
+}
+
+
+
+/* About us */
+
 .headerimg h1 {
     margin-top: 0px;
   }
@@ -131,16 +206,74 @@ body {
     background-image: url(img/photgrapher.jpg);
 }
 
-.aboutus .col-md-4{
+.aboutus .col-md-6{
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 5%;
+}
+
+.aboutus h3 {
+    font-weight: 900;
+}
+
+.aboutus h4{
+    padding-bottom: 2%;
+}
+
+.callus {
+    padding-top: 4%;
+}
+
+.location{
+    padding-top: 5%;
+}
+
+.businesshours{
+    padding-top: 5%;
+}
+.aboutus #rightside{
+    line-height: 7px;
+}
+
+.icons{
+    margin: 2.5%;
+}
+
+
+/* Book now form*/
+
+.booknow h1{
+    text-align: center;
+    padding-top: 2%;
+    
+    font-weight: bold;
+}
+
+#row1-leftside {
+    padding-left: -25%;
+    padding-right: 5%;
+}
+#row1-rightside {
     padding-left: 5%;
-    padding-top: 7%;
+    
 }
 
-.aboutus .col-md-8{
-    padding-left: 25%;  
-    padding-top: 8%;  
+#row3-leftside {
+    padding-left: -25%;
+}
+#row3-rightside {
+    padding-left: 5%;
+    
 }
 
-.form .row{
-    padding-left: 10%;
+.booknow .row{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 2%;
+}
+
+
+.booknow .btn-container{
+    text-align: center;
+    padding-top: 3%;
 }
